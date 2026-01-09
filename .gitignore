@@ -1,0 +1,12 @@
+# IntelliJ e IDEs
+.idea/
+*.iml
+out/
+gen/
+
+# Compilados Java
+*.class
+
+# Arquivos de log e SO
+*.log
+.DS_Store
