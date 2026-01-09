@@ -3,7 +3,7 @@ package model.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Departament implements Serializable {
+public class Department implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -13,9 +13,9 @@ public class Departament implements Serializable {
 
 
 
-    public Departament(){
+    public Department(){
     }
-    public Departament(Integer id, String name) {
+    public Department(Integer id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -40,7 +40,7 @@ public class Departament implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
-        Departament that = (Departament) o;
+        Department that = (Department) o;
         return Objects.equals(id, that.id);
     }
     @Override
